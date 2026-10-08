@@ -1,0 +1,22 @@
+---
+title: "Budget and Revenue"
+---
+
+This page explore the relationship between the Production budgets and the worldwide revenues of the 104 films @fig-budget-revenue.
+
+```{python}
+#| echo: true 
+#| label: fig-budget-revenue
+#| fig-cap: "Production budgets and worldwide revenues of the films."
+
+import pandas as pd
+import matplotlib.pyplot as plt 
+
+films = pd.read_csv("films.csv")
+
+plt.scatter(films["budget_musd"], films["revenue_musd"])
+plt.xlabel("Production budget (millions of US dollars)")
+plt.ylabel("Worldwide revenue (millions of US dollars)")
+plt.tight_layout()
+plt.show()
+```

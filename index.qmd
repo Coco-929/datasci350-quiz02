@@ -1,0 +1,12 @@
+---
+title: "Box Office Numbers"
+---
+
+This website looks into 104 films. The dataset includes information related to production budget, revenue, runtime, and the imdb rating of the 104 movies. Production budget and revenue are recorded as millions of US dollars. 
+
+## Exploring the analyses
+- [Budget and Revenue](budget-revenue.qmd)
+- [Runtime and Ratings](runtime-rating.qmd)
+- [The Bond Films](bond.qmd)
+
+I used ChatGPT to help me to check the code and detect error. 
